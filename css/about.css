@@ -1,0 +1,98 @@
+*{
+    width: 100%;
+}
+.main-page{
+    background-image: url(../img/01.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    position: sticky;
+    top: 0;
+}
+.nav-bar{
+    display: flex;
+    padding-right: 300px;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    display: flex;
+    padding-right: 80px;
+    font-size: 30px;
+    color: azure;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.logo{
+    color: azure;
+    font-size: 40px;
+    padding-left: 30px;
+}
+.logo i{
+    color: rgb(68, 233, 68);
+    font-size: 50px;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    text-align: center; 
+}
+p{
+    color: rgb(179, 160, 160);
+    text-align: center;
+    font-size: 30px;
+}
+button{
+    color: white;
+    background-color: rgb(37, 175, 9);
+    height: 50px;
+    width: 200px;
+    margin-left: 45%;
+    border-radius: 10px;
+    border: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.main-left{
+    width: 45%;
+    margin-left: 200px;
+}
+.main-right{
+    width: 45%;
+    margin-right: 200px;
+}
+.main-left img{
+    border-radius: 30px;
+}
+.main-right h3{
+    color: rgb(76, 161, 27);
+    font-size: 30px;
+    text-align: left;
+    padding-left: 60px;
+}
+.main-right p{
+    color: gray;
+    text-align: left;
+    padding-left: 60px;
+}
+.main-right p i{
+    color: rgb(76, 161, 27);
+}
+h1{
+    color: gray;
+}
+i{
+    color: rgb(68, 233, 68);
+    font-size: 50px; 
+}

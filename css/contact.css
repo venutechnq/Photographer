@@ -1,0 +1,106 @@
+*{
+    width: 100%;
+}
+.main-page{
+    background-image: url(../img/nt.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    position: sticky;
+    top: 0;
+}
+.nav-bar{
+    display: flex;
+    padding-right: 300px;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    display: flex;
+    padding-right: 80px;
+    font-size: 30px;
+    color: azure;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.logo{
+    color: azure;
+    font-size: 40px;
+    padding-left: 30px;
+}
+.logo i{
+    color: rgb(68, 233, 68);
+    font-size: 50px;
+}
+h1{
+    color: #E8F9FD;
+    padding-left: 250px;
+    font-size: 50px;
+}
+p{
+    color: #FCF8E8;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.address p b{
+    padding-left: 10px;
+    color: gray;
+}
+.address p i{
+    color: rgb(37, 209, 37);
+    font-size: 30px;
+}
+h1{
+    margin-left: 200px;
+    color: gray;
+}
+i{
+   color: rgb(33, 73, 33); 
+}
+.details{
+    background-color: black
+}
+fieldset{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
+label{
+    color: white;
+    margin-left: 150px;
+}
+input{
+    height: 30px;
+    width: 200px;
+    padding-left: 250px;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background-color: rgb(103, 228, 103);
+}
+.details button{
+    height: 40px;
+    width: 100px;
+    margin-left: 400px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.details button:hover{
+    background-color:  rgb(103, 228, 103);
+    color: blue;
+}
